@@ -261,10 +261,6 @@ vim.keymap.set("n", "gf", function()
 end, { noremap = false, expr = true })
 vim.opt.conceallevel = 1
 
--- oil.nvim
-require("oil").setup()
-vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
-
 -- Theme
 vim.o.background = "dark"
   vim.cmd([[colorscheme gruvbox]])
