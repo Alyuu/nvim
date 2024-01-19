@@ -220,13 +220,9 @@ require('lazy').setup({
 require("obsidian").setup({
   workspaces = {
     {
-      name = "Alejandro",
-      path = "D:/Trabajo/Apuntes/Alejandro",
-    },
-    {
-      name = "Instituto",
-      path = "D:/Trabajo/Apuntes/Instituto",
-    },
+      name = "Name of vault",
+      path = "path/to/vault",
+    }
   },
 
   completion = {
